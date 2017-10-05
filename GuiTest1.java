@@ -1,8 +1,10 @@
 package varun;
-public class test {
+
+public class GuiTest1 {
 	public static void main(String args[])
 	{
-	Animal a= new Dog();
-	a.eat();
+		Gui1 g1= new Gui1();
+		g1.run();
 	}
+
 }
