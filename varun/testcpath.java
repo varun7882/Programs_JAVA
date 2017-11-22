@@ -30,7 +30,7 @@ public class testcpath {
         int[] jumps = new int[N];
         dp[N-1] = log(A[N-1]);
         jumps[N-1] = N; // to break last loop
-        TreeMap<Double,Integer> findMin = new TreeMap<>();
+        TreeMap<Double,Integer> findMin = new TreeMap<Double,Integer>();
         for (int j=N-2; j>=0; --j) {
             
             if (j+K+1<N && findMin.get(dp[j+K+1]) == j+K+1) findMin.remove(dp[j+K+1]);

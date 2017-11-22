@@ -1,6 +1,7 @@
 package varun;
 import java.io.*;
 import java.util.*;
+import java.util.Map.Entry;
 
 public class SEATL {
 	public static void main(String args[]) throws IOException
@@ -96,7 +97,7 @@ public class SEATL {
 			rn=0;
 			cn=0;
 			int tans;
-			for(HashMap.Entry<Integer,HashMap<Integer,Integer>> e:row.entrySet() )
+			for(Entry<Integer, HashMap<Integer, Integer>> e:row.entrySet() )
 			{
 				HashSet<Integer> ro = new HashSet<Integer>();
 				HashSet<Integer> co = new HashSet<Integer>();

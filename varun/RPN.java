@@ -25,12 +25,12 @@ class RPN {
 				{
 					do
 					{	
-					temp= (char)(st1.pop());
+					temp= (Character)(st1.pop());
 					if(Character.toString(temp)!="(")
 					{	
 					System.out.print(temp);
 					}
-					}while((char)(st1.pop())!='(');
+					}while((Character)(st1.pop())!='(');
 				}
 				else
 				{

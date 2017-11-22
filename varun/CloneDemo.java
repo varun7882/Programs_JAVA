@@ -1,3 +1,4 @@
+package varun;
 
 public class CloneDemo implements Cloneable {
 	 protected Object clone() throws CloneNotSupportedException

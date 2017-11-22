@@ -1,3 +1,4 @@
+package varun;
 
 public class Genclass<T> {
 	private T a;
