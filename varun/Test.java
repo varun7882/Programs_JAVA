@@ -4,5 +4,6 @@ public class Test {
 	{
 	Animal a= new Dog();
 	a.eat();
+	System.out.println("Hello World!!");
 	}
 }
