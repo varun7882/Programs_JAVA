@@ -1,6 +1,7 @@
 package varun;
 import java.util.*;
-class ambi 
+class ambi
+	// Some comment
 {
  public static void main(String args[])
  {
