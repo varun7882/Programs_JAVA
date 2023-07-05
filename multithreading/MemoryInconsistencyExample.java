@@ -20,6 +20,7 @@ public class MemoryInconsistencyExample {
                 System.out.println("Byeeeeee!!!!");
             }
         };
+
         executorService.submit(task);
         System.out.println("say hello");
         sayHello=true;
